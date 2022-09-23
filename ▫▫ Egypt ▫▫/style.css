@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    border-radius:25px ;
+    
+}
+
+nav img{
+    height:100px;
+    width: 100px;
+    float: right;
+    margin: 0 10px 0;
+    
+}
+
+nav img:hover{
+    height:100px;
+    width: 100px;
+    float: right;
+    background-color:rgb(109, 189, 255) ;
+    padding:5px 0 5px 5px ;
+    border-radius: 25px;
+}
+body{
+display: flex;
+flex-direction: column;
+background-color: rgba(255, 250, 205, 0.808);
+}
+.galeria{
+    width: 100%;
+    justify-content: space-around;
+    height: 300px;
+    background-image: url("./imagenes/fondo2.jpg");
+    display: flex;
+    border-radius: 50px;
+}
+
+.galeria .img_1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 78, 78);
+    margin: 15px 0;
+}
+.galeria .img_1:hover{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 10px solid rgb(230, 215, 16);
+    margin: 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+h4{
+    margin-bottom: 40px;
+    color: black;
+}
+.interes{
+    width: 500px;
+    background-image:url("./imagenes/fondo1.jpg") ;
+    background-size: cover;
+    flex-flow:center wrap ;
+    padding: 90px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.lugares{
+    width: auto;
+    background-image:url("./imagenes/camelloos.webp") ;
+    background-size: cover;
+    flex-flow:center wrap ;
+    padding: 90px;
+    border-radius: 20px;
+    font-size: large;
+    color: cornsilk;
+}
+
+.lugares p{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 15px 0;
+    padding: 5px;
+    background-color: lightskyblue;
+    font-size: large;
+}
+button:hover{
+    margin-top: 10px;
+    border-radius: 15px 0;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: cornsilk
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.info_egipto{
+    margin-top: 50px;
+    width: 1000px;
+    background-image:url("./imagenes/fondo3.webp") ;
+    background-position: center;
+    flex-flow:center wrap ;
+    padding: 90px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 200;
+    color: cornsilk;
+}
+
+.info_egipto p{
+    margin: 0 90px 0 90px;
+}
+
+.info_egipto h4{
+    color: beige;
+}
+
+footer{
+    margin-top:25px; 
+    background-color:rgba(201, 3, 3, 0.61);
+    justify-content: center;
+}
+.final img{
+    width: 100px;
+    height: 80px;
+}
+
+#horus{
+    float: right;
+}
